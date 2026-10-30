@@ -1,0 +1,27 @@
+cat > .gitignore <<'EOF'
+# Foundry compiler files
+cache/
+out/
+
+# Foundry broadcast files
+broadcast/
+
+# Coverage reports
+coverage/
+coverage.txt
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Documentation
+docs/
+
+# Backup files
+*.save
+
+# Logs
+.logs/
+.ignore/
+EOF
